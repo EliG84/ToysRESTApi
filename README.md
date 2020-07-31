@@ -1,4 +1,4 @@
-# Toys Api Project - Node JS and MongoDB
+# Toys REST Api Project - Node JS and MongoDB
 Student API project
 
 Documentation URL : https://speedtech2020.com/apis/toys/ <br/>
