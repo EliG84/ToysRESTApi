@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const atlasConnect = require('./DB/atlas');
+const atlasConnect = require('./Data/atlas');
 
 atlasConnect();
 
