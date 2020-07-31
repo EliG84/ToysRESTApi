@@ -4,7 +4,10 @@ const Schema = mongoose.Schema;
 const ToySchema = new Schema({
   name: { type: String, required: true },
   category: { type: String, required: true },
-  img_url: { type: String, default: '/img/default.jpg' },
+  imgUrl: {
+    type: String,
+    default: 'https://toy-api-eli.herokuapp.com/img/default.jpg',
+  },
   info: { type: String, default: 'This is a Toy' },
   price: { type: Number, required: true },
   created: {

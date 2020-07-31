@@ -1,4 +1,5 @@
 {
-  "user": "speedtech",
-  "pass": "letsrock"
+  "local": "mongodb://localhost/toysApi",
+  "remote": "mongodb+srv://speedtech:letsrock@speedtech.vyer8.gcp.mongodb.net/toysApi",
+  "docs": "https://speedtech2020.com/apis/toys/"
 }
